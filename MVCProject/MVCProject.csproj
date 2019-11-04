@@ -200,6 +200,7 @@
     <Content Include="Views\People\Index.cshtml" />
     <Content Include="Views\People\ListPeople.cshtml" />
     <Content Include="Views\People\SignUp.cshtml" />
+    <Content Include="Views\People\ViewPeople.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -214,6 +215,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLibrary\DataLibrary.csproj">
+      <Project>{863d6923-92db-4ba0-94bd-ff9f4afef147}</Project>
+      <Name>DataLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

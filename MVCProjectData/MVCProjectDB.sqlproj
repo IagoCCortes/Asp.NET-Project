@@ -67,6 +67,6 @@
     <RefactorLog Include="MVCProjectData.refactorlog" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Publish Profiles\MVCProjectData.publish.xml" />
+    <None Include="Publish Profiles\MVCProjectDB.publish.xml" />
   </ItemGroup>
 </Project>
